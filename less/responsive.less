@@ -1,0 +1,67 @@
+@media screen and (min-width: 1025px) {
+    /*Ajuste de logo al momento de hacer scroll*/
+    .whb-sticked .whb-general-header .woodmart-logo img {
+        transform: scale(1.6) translateY(11px);
+    }
+}
+
+@media (max-width: 768px) {
+.offcanvas-sidebar-mobile .woodmart-sticky-sidebar-opener {
+    display: none;
+}
+}
+
+@media screen and (max-width: 750px) {
+    
+    /*LOGO*/
+    .whb-scroll-stick .woodmart-logo img {
+    padding-top: 0;
+    transform: scale(2) translateY(15px);
+}
+    
+    //Fix slide
+    
+    canvas{
+        touch-action:auto !important;
+    }
+    
+    .scene-nav{
+        display: none;
+    }
+    
+    /*Esquema por defecto para las secciones*/
+    .grid {
+		    display: initial;
+        .col {
+            width: 100%;
+        }
+        .col2 {
+            width: 100%;
+        }
+        
+        &.invertido{
+            flex-wrap: wrap-reverse;
+        } 
+    }
+    
+.template-section a.btn {
+    margin: 0 auto;
+    display: block;
+     margin-top: 25px;
+    padding: 15px;
+    margin-left: 10px!important;
+    margin-right: 10px;
+}
+
+
+    .template-section {
+        .col {
+            min-height: auto;
+            padding: 20px;
+        }
+		h1 {
+			    font-size: 36px;
+		}
+    }
+    
+}

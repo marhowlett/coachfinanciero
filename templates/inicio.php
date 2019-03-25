@@ -6,20 +6,23 @@
       
   
     <section id="banner" class="template-section">
-    <div class="banner2">
+      <div class="contenedor">
+   
     <h1 class="especial">¿Quieres hacer crecer tu dinero?</h1>
     <h1>¡Invierte de forma segura en la bolsa! (Desde 500 mil mxp)</h1>
     <h1>Benefíciate del crecimiento econónomico de empresas como:
-AmazonTM , Coca ColaTM  y BIMBOTM , entre otras.</h2>
+AmazonTM , Coca ColaTM  y BIMBOTM , entre otras.</h1>
      <div class="boton"><a href="" class="btn1">ME INTERESA</a>    <a href="" class="btn2">MÁS INFORMACIÓN</a></div> 
    </div>
-   
+       
     </section >
 
  
     <section id="inversion" class="template-section">
+           <div class="contenedor">
           <h2>Si hace 5 años hubiera invertido en acciones de la empresa Apple™ por ejemplo; <br>
 ¿Cuál sería mi rendimiento hoy?</h2>
+    
       <div class="grid">
            
                 <div class="col">
@@ -33,9 +36,10 @@ AmazonTM , Coca ColaTM  y BIMBOTM , entre otras.</h2>
          <div class="boton"> <a href="http://proservet.mx/quienes-somos/" class="btn1">Me interesa invertir</a></div> 
                </div>
      </div>
-        
+        </div>
     </section>
         <section id="seguro" class="template-section">
+           <div class="contenedor">
           <h2>¿Quieres invertir de forma segura y con altos rendimientos?</h2>
           <p class="inversiones">Las <strong>inversiones en acciones</strong>, son de mediano y largo plazo (mínimo de 3 años para recibir ganancias). <strong>El plazo de inversión ideal es de 5 años en adelante para obtener retornos aún más altos</strong>, con un buen análisis y acompañados de un profesionista que nos ayude. Este tipo de inversiones <strong>son legales</strong> y cubren lo establecido por las leyes mexicanas e internacionales a través de instituciones altamente calificadas-supervisadas-reconocidas que el analista podrá recomendarle. </p>
       <div class="grid">
@@ -54,9 +58,11 @@ AmazonTM , Coca ColaTM  y BIMBOTM , entre otras.</h2>
        
        <p class="gusto">Con gusto <strong> en una cita o llamada personalizada te brindaremos la información con detalle</strong> y ejemplificada.  </p>
         <div class="boton"><a href="" class="btn1">Contáctanos</a>    </div> 
+            </div>
 </section>
 
        <section id="beneficio" class="template-section">
+           <div class="contenedor">
           <h2>BENEFICIOS</h2>
           <p>inversiones sofisticadas, legales y seguras</p>
       <div class="grid">
@@ -81,13 +87,13 @@ AmazonTM , Coca ColaTM  y BIMBOTM , entre otras.</h2>
                    <p>Las inversiones en Bolsa o Inversiones en Acciones te dan la posibilidad de comprar acciones de forma legal y eficaz y ser parte del crecimiento de las empresas más representativas y conocidas a nivel mundial. </p>
                </div>
                 <div class="col">
-                  <h3>CONOCE EL RENDIMIENTO DE TU INVERSIÓN</h3>
+                  <h3>CONOCE EL RENDIMIENTO <br>DE TU INVERSIÓN</h3>
                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/celular.png" alt="Invertido">
                    <p>Podrás consultar diariamente a través de una app tu saldo y recibirás estados de cuenta electrónicos y físicos de tu inversión mensualmente y anualmente.</p>
                </div>
      </div>
        <div class="interes">
-       <h3>TASA DE INTERÉS SUPERIOR A LA INFLAC</h3>
+       <h3>TASA DE INTERÉS SUPERIOR A LA INFLACIÓN</h3>
                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/piggy-bank-with-dollar-coins.png" alt="Invertido">
                    <p>Las tasas de rentabilidad históricas que han tenido las inversiones en bolsa en plazos de 5 años han sido sumamente superiores a la tasa de inflación de este mismo periodo, por eso, pese a que son inversiones con volatilidad, son también altamente rentables en plazos de inversión de 3 a 5 años.</p>
         </div>
@@ -141,7 +147,7 @@ AmazonTM , Coca ColaTM  y BIMBOTM , entre otras.</h2>
                <div class="boton"><a href="" class="btn1">Me interesa</a>    </div> 
                </div>
      </div>
-     
+           </div>
     </section>
   <?php include 'contacto.php'; ?>
  

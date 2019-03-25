@@ -1,11 +1,49 @@
 /*
- Theme Name:   Financiero
- Description:  Sitio Web para proservet
- Author:       EsBrillante
- Author URI:   https://esbrillante.mx
- Template:     woodmart
- Version:      1.0.0
- Text Domain:  woodmart
+Theme Name:     Coaching
+Theme URI: 		http://themeforest.net/user/artbees
+Description:    Child theme for the Jupiter theme 
+Author:         Your name here
+Theme URI: 		http://themeforest.net/user/artbees
+Template:       jupiter
+Version:        1.0
 */
 
+
+
+/*
+Sample : remove the comment and start adding your own custom CSS rules.
+
+body {
+	background-color:#fff;
+}
+
+*/
 @import url(less/main.css);
+
+/*Color de texto Blanco*/
+.blanco p, .mk-text-block.blanco h2{
+	color: #fff;
+}
+
+.mk-text-block.acercade h2{
+	color: #608039;
+}
+
+.boton-enviar{
+	color:#fff;
+	background-color: #608039;
+	border: none;
+	padding: 20px 30px;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	border-radius: 5px;
+	transition: all 0.3s ease-in-out;
+}
+
+.boton-enviar:hover{
+	background-color: #80a83f;
+}
+
+#esbrillante{
+	color: #fff;
+}

@@ -164,6 +164,12 @@
   margin-top: -12px;
   transform: scale(1.4) translateY(17px);
 }
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
 /*Ajuste de FullWidth*/
 .page-template .container {
   max-width: 100%;
@@ -174,12 +180,16 @@
   display: flex;
   flex-wrap: wrap;
 }
-.grid .col {
+.grid .col,
+.grid .col_footer {
   width: 50%;
   flex-basis: inherit;
+  box-sizing: border-box;
 }
 .grid .col2 {
+  box-sizing: border-box;
   width: 33%;
+  flex-basis: inherit;
 }
 /*Ajuste general*/
 .template-section {
@@ -213,6 +223,12 @@
   color: black;
   font-weight: normal;
   line-height: 1.3em;
+}
+.template-section h3 {
+  font-family: 'Myriad Pro';
+  font-weight: bold;
+  color: black;
+  font-size: 24px;
 }
 .template-section p,
 .template-section ul {
@@ -277,12 +293,10 @@
 #banner .btn1 {
   margin-right: 30px;
 }
-#banner .banner2 {
-  padding-left: 150px;
-}
 #inversion {
-  padding: 50px 150px;
+  padding: 50px 0 0 0;
   background-color: white;
+  margin-bottom: -60px;
 }
 #inversion img {
   position: relative;
@@ -298,7 +312,6 @@
   text-align: center;
 }
 #seguro {
-  padding: 50px 150px;
   background-color: #fafaff;
 }
 #seguro .boton {
@@ -319,9 +332,6 @@
 #seguro img {
   position: relative;
   float: left;
-}
-#beneficio {
-  padding: 50px 150px;
 }
 #beneficio h2 {
   font-size: 70px;
@@ -349,4 +359,91 @@
 }
 #beneficio .bank .boton {
   margin-top: 30px;
+}
+#contacto {
+  background-color: #f2f2f2;
+}
+#contacto input,
+#contacto textarea {
+  font-family: 'Arial Narrow';
+}
+.woodmart-prefooter {
+  padding-bottom: inherit;
+}
+footer #parte1 {
+  background-color: #00b837;
+}
+footer #parte1 .datos {
+  margin-bottom: 10px;
+}
+footer #parte1 .datos i {
+  margin-right: 10px;
+}
+footer #parte1 .datos span,
+footer #parte1 .datos a {
+  color: #fff;
+  font-size: 1.2em;
+}
+footer #parte2 {
+  padding: 20px 0;
+  background-color: #00b034;
+}
+footer #parte2 a {
+  color: white;
+}
+.head_coaching b {
+  font-weight: normal;
+  font-family: 'Myriad Pro';
+}
+@media screen and (min-width: 1025px) {
+  /*Ajuste de logo al momento de hacer scroll*/
+  .whb-sticked .whb-general-header .woodmart-logo img {
+    transform: scale(1.6) translateY(11px);
+  }
+}
+@media (max-width: 768px) {
+  .offcanvas-sidebar-mobile .woodmart-sticky-sidebar-opener {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  /*LOGO*/
+  .whb-scroll-stick .woodmart-logo img {
+    padding-top: 0;
+    transform: scale(2) translateY(15px);
+  }
+  canvas {
+    touch-action: auto !important;
+  }
+  .scene-nav {
+    display: none;
+  }
+  /*Esquema por defecto para las secciones*/
+  .grid {
+    display: initial;
+  }
+  .grid .col {
+    width: 100%;
+  }
+  .grid .col2 {
+    width: 100%;
+  }
+  .grid.invertido {
+    flex-wrap: wrap-reverse;
+  }
+  .template-section a.btn {
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+    padding: 15px;
+    margin-left: 10px!important;
+    margin-right: 10px;
+  }
+  .template-section .col {
+    min-height: auto;
+    padding: 20px;
+  }
+  .template-section h1 {
+    font-size: 36px;
+  }
 }

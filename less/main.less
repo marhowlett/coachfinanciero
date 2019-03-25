@@ -223,7 +223,12 @@
 @import "var";
 
 
-
+img {
+        max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
 
 
 /*Ajuste de FullWidth*/
@@ -241,13 +246,16 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
-    .col {
+    .col, .col_footer {
         width: 50%;
             flex-basis: inherit;
+          box-sizing: border-box;
 
     }
     .col2 {
+          box-sizing: border-box;
         width: 33%;
+        flex-basis: inherit;
     }
 }
 
@@ -268,6 +276,7 @@
         min-height: 500px;
         padding: 60px;
     }
+
     
     h1 {
         text-align: center;
@@ -294,6 +303,12 @@
         font-weight: normal;
         line-height: 1.3em;
 
+    }
+     h3 {
+        font-family: 'Myriad Pro';
+        font-weight: bold;
+        color: black;
+            font-size: 24px;
     }
 
     p,
@@ -379,16 +394,13 @@
         margin-right: 30px;
         
     }
-    .banner2 {
-        padding-left: 150px;
-    }
-    
+  
 }
 
 #inversion {
-    padding: 50px 150px;
+     padding: 50px 0 0 0;
     background-color: white;
-    
+        margin-bottom: -60px;
     img {
             position: relative;
     float: right;
@@ -405,7 +417,7 @@
     }
 }
 #seguro {
-     padding: 50px 150px;
+    
     background-color: @fondo_blaco;
     .boton {
         text-align: center;
@@ -437,7 +449,8 @@
 }
 
 #beneficio {
-     padding: 50px 150px;
+   
+    
     h2 {
         font-size: 70px;
     }
@@ -469,3 +482,53 @@
     }
     
 }
+
+#contacto {
+    background-color: @fondo_gris;
+    
+    input, textarea {
+         font-family: 'Arial Narrow';
+    }
+}
+.woodmart-prefooter {
+   
+    padding-bottom: inherit;
+}
+    
+    
+footer {
+    
+    #parte1{
+        background-color: @verde;
+        .datos {
+        i {
+            margin-right: 10px;
+        }
+        span,a {
+            color: #fff;
+            font-size: 1.2em;
+        }
+        margin-bottom: 10px;
+    }
+    
+
+
+    }
+    #parte2 {
+        padding: 20px 0;
+        background-color: @verde2;
+        a {
+            color: white;
+        }
+    }
+}
+
+
+.head_coaching {
+    b {
+        font-weight: normal;
+            font-family: 'Myriad Pro';
+    }
+}
+
+@import "responsive";

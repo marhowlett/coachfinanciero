@@ -233,7 +233,7 @@ img {
 .template-section p,
 .template-section ul {
   color: #a4a4a6;
-  font-size: 1.2em;
+  font-size: 20px;
   font-family: 'Myriad Pro';
 }
 .template-section ul li {
@@ -318,8 +318,7 @@ img {
   text-align: center;
 }
 #seguro p.inversiones {
-  margin-right: 100px;
-  margin-left: 100px;
+  padding: 20px;
 }
 #seguro p.gusto {
   text-align: center;
@@ -419,9 +418,6 @@ footer #parte2 a {
     display: none;
   }
   /*Esquema por defecto para las secciones*/
-  .grid {
-    display: initial;
-  }
   .grid .col {
     width: 100%;
   }
@@ -444,6 +440,73 @@ footer #parte2 a {
     padding: 20px;
   }
   .template-section h1 {
-    font-size: 36px;
+    font-size: 23px;
+  }
+  .template-section p {
+    text-align: justify;
+    text-align-last: center;
+  }
+  .template-section .btn1 {
+    display: block;
+  }
+  #banner {
+    padding: 133px 0;
+    margin-top: -258px;
+    background: url(../img/slider_movil.jpg) no-repeat center;
+  }
+  #banner h1 {
+    font-size: 23px;
+    width: auto;
+    text-align: center;
+    padding: initial;
+  }
+  #banner h1.especial {
+    width: auto;
+    font-size: 27px;
+    margin-top: 520px;
+  }
+  #banner img {
+    margin-bottom: 20px;
+  }
+  #banner .btn1,
+  #banner .btn2 {
+    display: block;
+  }
+  #banner .btn1 {
+    margin-right: auto;
+  }
+  #banner .btn2 {
+    margin-top: 20px;
+  }
+  #banner .boton {
+    margin-left: auto;
+    margin-top: auto;
+    text-align: center;
+  }
+  #inversion .contenedor {
+    margin-top: -90px;
+  }
+  #seguro h2 {
+    margin-top: 50px;
+  }
+  #seguro p.inversiones {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #seguro p.gusto {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+  #beneficio .segundo {
+    margin-top: auto;
+  }
+  #beneficio .interes {
+    margin-top: auto;
+    padding: 20px;
+  }
+  #contacto {
+    padding-left: 10px;
   }
 }
